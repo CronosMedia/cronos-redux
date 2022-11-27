@@ -1,9 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+$black: #232c33;
+$orange: #d36135;
+
 body {
 	margin: 0;
 	font-family: 'Montserrat', sans-serif;
 
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+
+	a {
+		text-decoration: none;
+		color: $black;
+
+		&:hover {
+			color: $orange;
+		}
+	}
+
+	.hamburgerMenu,
+	.cart,
+	.user,
+	.dollarSign,
+	.trashCan {
+		width: 24px;
+		height: 24px;
+	}
+
+	.logo {
+		width: 123px;
+		height: 29px;
+	}
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import './navbar.scss';
-import { Logo, HamburgerMenu, Cart } from '../../icons';
+import { Logo, HamburgerMenu, Cart, User } from '../../icons';
 import { menuItems } from '../../data';
 
 function Navbar() {
@@ -43,10 +43,16 @@ function Navbar() {
 							<span>Coș</span>
 						</span>
 					</a>
+
 					<a
 						href="#"
 						className="button">
 						Login
+					</a>
+					<a
+						href="#"
+						className="user">
+						<User />
 					</a>
 				</div>
 			</div>

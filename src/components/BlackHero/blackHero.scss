@@ -1,0 +1,45 @@
+@import '../../index.scss';
+
+.blackHeroContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 150px;
+	padding: 1.2rem 3.2rem;
+	background-color: $black;
+
+	.headline {
+		display: flex;
+		align-items: center;
+		.icon {
+			margin-right: 24px;
+		}
+		.heading {
+			text-align: left;
+			color: white;
+			font-size: 0.875rem;
+			font-weight: 700;
+			line-height: 1.2rem;
+			text-transform: uppercase;
+		}
+	}
+	.CTAButton {
+		color: $black;
+		font-size: 0.875rem;
+		font-weight: 700;
+		line-height: 1.2rem;
+		text-transform: uppercase;
+		padding: 0.4375rem 1.375rem;
+		background-color: #fff;
+		border-radius: 4px;
+		margin-top: 2rem;
+		cursor: pointer;
+
+		&:hover {
+			background-color: $orange;
+			color: #fff;
+			transition: all 0.5s ease-in-out;
+		}
+	}
+}
