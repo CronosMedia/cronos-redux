@@ -1,0 +1,33 @@
+@import '../../index.scss';
+
+.buttonContainer {
+	.CTAButton {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 1rem auto;
+		padding: 1rem 1rem;
+		min-width: 95vw;
+		border: 1px solid $black;
+		border-radius: 4px;
+		background-color: $black;
+		color: #fff;
+		cursor: pointer;
+
+		.icon {
+			margin-right: 0.8rem;
+		}
+		.text {
+			font-family: Montserrat, sans-serif;
+			font-size: 16px;
+			line-height: 140%;
+			font-weight: 700;
+		}
+
+		&:hover {
+			border: 1px solid $orange;
+			background-color: $orange;
+			transition: all 0.5s ease-in-out;
+		}
+	}
+}

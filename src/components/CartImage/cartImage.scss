@@ -1,6 +1,10 @@
 @import '../../index.scss';
 
 .cartImageContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 auto;
 	padding: 0 1rem;
 	max-width: 95vw;
 	.strong {
@@ -34,6 +38,7 @@
 		justify-content: center;
 		margin: 1rem 0;
 		justify-content: space-between;
+		min-width: 95vw;
 
 		.deleteImage {
 			display: flex;
@@ -48,9 +53,11 @@
 	.imageCredit {
 		text-align: left;
 		margin: 1rem 0;
+		min-width: 95vw;
 	}
 
 	.imageDescription {
 		text-align: left;
+		min-width: 95vw;
 	}
 }

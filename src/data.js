@@ -26,3 +26,11 @@ export const CartItems = [
 			'Ayrton Senna (Arg) participand la Marele Premiu al Braziliei de Formula 1 desfasurat pe circuitul Interlagos. Alfredo Falcone/Cronos',
 	},
 ];
+
+export const CTAButtonBlack = [
+	{
+		id: 1,
+		icon: <DollarSign />,
+		heading: 'In pachet de la 3.80 € / imagine',
+	},
+];

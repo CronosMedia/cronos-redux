@@ -1,5 +1,6 @@
 import React from 'react';
 import './cartLicenseButtonGroup.scss';
+import '../../index.scss';
 
 const CartLicenseButtonGroup = () => {
 	return (
@@ -32,15 +33,15 @@ const CartLicenseButtonGroup = () => {
 				</fieldset>
 			</div>
 
-			<div className="plainText">
-				<p>
+			<div>
+				<span className="plainText">
 					Se poate utiliza doar o singura data intr-un articol
 					editorial. Tipul media de utilizare nu este restrictionat cu
 					acest tip de licenta (sunt excluse site-urile TV, productia
 					de filme si pariuri). Imaginea se livreaza la rezolutie
 					inalta, asa cum este specificat in descrierea fiecarei
 					imagini.
-				</p>
+				</span>
 			</div>
 		</div>
 	);
